@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive;
+            background-color: #fffbe6;
+            font-size: 1.2rem;
+        }
+
+        header {
+            background-color: #fce303;
+        }
+
+        .nav-link {
+            color: #0d47a1 !important;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .nav-img {
+            width: 80px;
+        }
+
+        .btn-primary {
+            background-color: #0d47a1;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #08306b;
+        }
+
+        .inicio-fundo {
+            background-color: #fff176;
+            padding: 2rem;
+            border-radius: 20px;
+        }
+
+        h1, h2 {
+            font-size: 2.5rem;
+            color: #0d47a1;
+        }
+
+        .formulario {
+            background-color: #fff59d;
+            padding: 2rem;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #fce303;
+            font-size: 1.1rem;
+        }
+
+        .rounded-5 {
+            border: 5px solid #0d47a1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="p-4">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/estampar/catalog/produtos/kits/minions-azul-min.jpg" class="nav-img" alt="Logo Minions">
+            <ul class="nav mt-3">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="mt-2">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="mb-3">
+                    <h1>Bem-vindo ao Mundo dos Minions!</h1>
+                    <p class="lead">Conheça essas criaturas amarelas adoradas por todos!</p>
+                    <a href="#sobre" class="btn btn-primary btn-lg mt-3 rounded-pill">Quero conhecer!</a>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVL_8d2QzbNyy4mnaTOkJS9qnV449c85y-5w&s" alt="Minions felizes" class="img-fluid" width="400" loading="lazy">
+            </div>
+        </section>
+
+        <section id="sobre" class="my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://i.ytimg.com/vi/1WcSdhgb8lU/hqdefault.jpg" alt="Vários minions" class="img-fluid rounded-5" loading="lazy">
+                </div>
+                <div class="col-md-6">
+                    <h2>Quem são os Minions?</h2>
+                    <p>
+                        Os Minions são personagens fictícios da série de filmes "Meu Malvado Favorito". Eles são pequenas criaturas amarelas, divertidas e trapalhonas, que falam uma língua engraçada chamada "Minionês". Vivem para servir vilões (de preferência os mais malvados) e estão sempre envolvidos em situações engraçadas!
+                    </p>
+                    <p>
+                        Eles se tornaram um sucesso mundial com seus filmes e produtos derivados, conquistando públicos de todas as idades.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center mt-5">Galeria de Minions</h2>
+            <div class="container p-4 mt-3">
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <img src="https://universosagas.ig.com.br/wp-content/uploads/2024/07/Minions-3-confirmado.webp" class="img-fluid rounded-5" alt="Minion 1" loading="lazy">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://i.ytimg.com/vi/ZKvrI1OW80Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCyk9obmklivLQPM3FQPZFzwi4vsA" class="img-fluid rounded-5" alt="Minion 2" loading="lazy">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/minion
